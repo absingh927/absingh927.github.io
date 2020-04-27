@@ -774,8 +774,16 @@
 			-ms-transform: rotateX(15deg);
 			transform: rotateX(15deg);
 		}
+
+
+/* Latest */
+
+.latest-work a {
+	text-decoration: underline;
+}
+
 /* Content */
-  #content {
+  .content {
 		position: relative;
 		max-width: 100%;
 		color: #ffffff;
@@ -797,7 +805,7 @@
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 	}
-	#content a {
+	.content a {
 		text-decoration: underline;
 	}
 
